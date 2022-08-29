@@ -8,7 +8,7 @@ import Login from "./pages/Login/Login";
 
 function App() {
   return (
-    <div>
+    <div className="max-w-full mx-auto px-10">
       <Navigation></Navigation>
       <Routes>
         <Route path="/" element={<Home />} />
