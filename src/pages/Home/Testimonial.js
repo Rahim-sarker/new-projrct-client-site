@@ -1,7 +1,7 @@
 import React from "react";
 import quote from "../../assets/icons/quote.svg";
-import people1 from "../../assets/images/people1.png";
-import people2 from "../../assets/images/people2.png";
+import people1 from "../../assets/images/rahim.png";
+import people2 from "../../assets/images/ahmed.png";
 import people3 from "../../assets/images/people3.png";
 import Reviews from "./Reviews";
 
@@ -10,22 +10,22 @@ const Testimonial = () => {
     {
       _id: 1,
       name: "Rahim Sarker",
-      review: "",
+      review: "Service was overall fine, I did PTCA and availed Nephron treatment in United Hospital before through this website, all my family members patronize with overall service",
       img: people1,
       location: "Dhaka",
     },
     {
       _id: 2,
       name: "Dipa Sarker",
-      review: "",
+      review: "Good initiative to connect any doctors you desire they make the system to happen. Thank you for your services.Service is fine, we are very happy with your hospital and the related work, thanks so much thank you.",
       img: people2,
       location: "Dhaka",
     },
     {
       _id: 3,
-      name: "Jannatul Ara",
-      review: "",
-      img: people3,
+      name: "Rahim Sarker",
+      review: "Service was overall fine, I did PTCA and availed Nephron treatment in United Hospital before through this website, all my family members patronize with overall service",
+      img: people1,
       location: "Dhaka",
     },
   ];

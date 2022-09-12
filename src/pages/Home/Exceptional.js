@@ -1,24 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import treatment from "../../assets/images/treatment.png";
+import treatment from "../../assets/images/patientcare.jpg";
 import PrimaryButton from "../Shared/PrimaryButton";
 
 const Exceptional = () => {
   return (
     <div className="hero min-h-screen ">
       <div className="hero-content flex-col lg:flex-row ">
-        <img src={treatment} className="w-72 lg:w-96 rounded-lg shadow-2xl" />
+        <img src={treatment} className="w-80 h-80 lg:w-96 rounded-lg shadow-2xl" />
         <div className="mx-6">
           <h1 className="text-5xl font-bold">
-            Exceptional Dental Care, on Your Terms
+            Exceptional Patient Care, on Our Terms
           </h1>
           <p className="py-6">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsumis that it has a more-or-less normal
-            distribution of letters,as opposed to using 'Content here, content
-            here', making it look like readable English. Many desktop publishing
-            packages and web page
+          Our focus is on the complete patient experience. We’re organizationally structured for increasing the speed with which our treatment solutions progress from research lab to production facility to patient.
           </p>
           <Link to="hospital"><PrimaryButton>GET Started</PrimaryButton></Link>
         </div>

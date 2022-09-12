@@ -5,8 +5,7 @@ const Reviews = ({ review }) => {
     <div className="card lg:max-w-lg bg-base-100 shadow-xl">
       <div className="card-body">
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's{" "}
+          {review.review}
         </p>
         <div className="flex items-center">
           <div className="avatar">

@@ -1,7 +1,7 @@
 import React from "react";
-import fluoride from "../../assets/images/fluoride.png";
-import cavity from "../../assets/images/cavity.png";
-import whitening from "../../assets/images/whitening.png";
+import icu from "../../assets/images/icu.jpg";
+import lab from "../../assets/images/lab.jpg";
+import pharmacy from "../../assets/images/pharmacy.jpg";
 
 import Service from "./Service";
 
@@ -9,28 +9,28 @@ const Services = () => {
   const services = [
     {
       _id: 1,
-      name: "Fluoride Treatment",
-      img: fluoride,
-      description: "",
+      name: "Intensive care Intensive care units (ICU)",
+      img: icu,
+      description: "Specialist hospital wards that provide treatment and monitoring for people who are very ill",
     },
     {
       _id: 2,
-      name: "Cavity Filling",
-      img: cavity,
-      description: "",
+      name: "Laboratory Tests",
+      img: lab,
+      description: "Testing a sample of blood, urine, or other substance from the body",
     },
     {
       _id: 3,
-      name: "Teeth Whitening",
-      img: whitening,
-      description: "",
+      name: "Medicine Available",
+      img: pharmacy,
+      description: "Hospital dispensary where medicinal drugs are sold.preparing, preserving, compounding, and dispensing medical drugs",
     },
   ];
 
   return (
-    <div className="my-12">
+    <div className="mt-12">
       <div className="text-center">
-        <h3 className="text-primary">OUR SERVICES</h3>
+        <h3 className="text-1xl text-secondary font-bold">OUR SERVICES</h3>
         <h2 className="text-3xl">Services We Provide</h2>
       </div>
 
