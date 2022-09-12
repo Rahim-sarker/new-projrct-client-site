@@ -18,6 +18,7 @@ import Users from "./pages/DashBoard/Users";
 import RequireAdminn from "./pages/Login/RequireAdminn";
 import AddDoctor from "./pages/DashBoard/AddDoctor";
 import Hospitals from "./pages/Hospitals/Hospitals";
+import ManageDoctors from "./pages/DashBoard/ManageDoctors";
 
 
 
@@ -41,6 +42,7 @@ function App() {
         <Route path="history" element={<MyHistory></MyHistory>} />
         <Route path="users" element={<RequireAdminn><Users></Users></RequireAdminn>} />
         <Route path="addDoctor" element={<RequireAdminn> <AddDoctor></AddDoctor>  </RequireAdminn>} />
+        <Route path="manageDoctors" element={<RequireAdminn> <ManageDoctors></ManageDoctors>  </RequireAdminn>} />
 
 
         </Route>

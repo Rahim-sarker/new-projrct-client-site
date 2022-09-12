@@ -21,9 +21,9 @@ const Navigation = () => {
       <li>
         <Link to="hospital">Hospitals</Link>
       </li>
-      {/* <li>
+      <li>
         <Link to="/appoinment">Appoinment</Link>
-      </li> */}
+      </li>
       <li>
         <Link to="review">Reviews</Link>
       </li>
