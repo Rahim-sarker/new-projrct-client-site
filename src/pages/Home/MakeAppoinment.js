@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import doctor from "../../assets/images/doctor.png";
 import appointment from "../../assets/images/appointment.png";
 import PrimaryButton from "../Shared/PrimaryButton";
@@ -23,7 +24,8 @@ const MakeAppoinment = () => {
           look like readable English. Many desktop publishing packages and web
           page
         </p>
-        <PrimaryButton>get Started</PrimaryButton>
+        <Link to="hospital"><PrimaryButton>GET Started</PrimaryButton></Link>
+
       </div>
     </section>
   );

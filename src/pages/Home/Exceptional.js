@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import treatment from "../../assets/images/treatment.png";
 import PrimaryButton from "../Shared/PrimaryButton";
 
@@ -19,7 +20,7 @@ const Exceptional = () => {
             here', making it look like readable English. Many desktop publishing
             packages and web page
           </p>
-          <PrimaryButton>get Started</PrimaryButton>
+          <Link to="hospital"><PrimaryButton>GET Started</PrimaryButton></Link>
         </div>
       </div>
     </div>

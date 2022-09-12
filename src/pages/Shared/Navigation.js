@@ -18,10 +18,12 @@ const Navigation = () => {
       <li>
         <Link to="/">Home</Link>
       </li>
-
       <li>
-        <Link to="appoinment">Appoinment</Link>
+        <Link to="hospital">Hospitals</Link>
       </li>
+      {/* <li>
+        <Link to="/appoinment">Appoinment</Link>
+      </li> */}
       <li>
         <Link to="review">Reviews</Link>
       </li>

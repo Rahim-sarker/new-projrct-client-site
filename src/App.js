@@ -15,9 +15,9 @@ import MyAppointment from "./pages/DashBoard/MyAppointment";
 import MyReview from "./pages/DashBoard/MyReview";
 import MyHistory from "./pages/DashBoard/MyHistory";
 import Users from "./pages/DashBoard/Users";
-
-
-
+import RequireAdminn from "./pages/Login/RequireAdminn";
+import AddDoctor from "./pages/DashBoard/AddDoctor";
+import Hospitals from "./pages/Hospitals/Hospitals";
 
 
 
@@ -27,8 +27,9 @@ function App() {
       <Navigation></Navigation>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="hospital" element={<Hospitals></Hospitals>} />
         <Route path="about" element={<About />} />
-        <Route path="appoinment" element={
+        <Route path="/appoinment" element={
         <RequireAuth>
           <Appointment />
         </RequireAuth>} />
@@ -38,7 +39,8 @@ function App() {
         <Route index element={<MyAppointment></MyAppointment>} />
         <Route path="review" element={<MyReview></MyReview>} />
         <Route path="history" element={<MyHistory></MyHistory>} />
-        <Route path="users" element={<Users></Users>} />
+        <Route path="users" element={<RequireAdminn><Users></Users></RequireAdminn>} />
+        <Route path="addDoctor" element={<RequireAdminn> <AddDoctor></AddDoctor>  </RequireAdminn>} />
 
 
         </Route>
