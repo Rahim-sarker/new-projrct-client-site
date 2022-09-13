@@ -5,7 +5,7 @@ import PrimaryButton from "../Shared/PrimaryButton";
 
 const Exceptional = () => {
   return (
-    <div className="hero min-h-screen ">
+    <div className="hero min-h-screen mx-10">
       <div className="hero-content flex-col lg:flex-row ">
         <img src={treatment} className="w-80 h-80 lg:w-96 rounded-lg shadow-2xl" />
         <div className="mx-6">

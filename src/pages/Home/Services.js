@@ -9,7 +9,7 @@ const Services = () => {
   const services = [
     {
       _id: 1,
-      name: "Intensive care Intensive care units (ICU)",
+      name: "Intensive care units (ICU)",
       img: icu,
       description: "Specialist hospital wards that provide treatment and monitoring for people who are very ill",
     },
@@ -28,7 +28,7 @@ const Services = () => {
   ];
 
   return (
-    <div className="mt-12">
+    <div className="mt-12 mx-10">
       <div className="text-center">
         <h3 className="text-1xl text-secondary font-bold">OUR SERVICES</h3>
         <h2 className="text-3xl">Services We Provide</h2>

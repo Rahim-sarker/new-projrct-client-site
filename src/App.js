@@ -19,17 +19,19 @@ import RequireAdminn from "./pages/Login/RequireAdminn";
 import AddDoctor from "./pages/DashBoard/AddDoctor";
 import Hospitals from "./pages/Hospitals/Hospitals";
 import ManageDoctors from "./pages/DashBoard/ManageDoctors";
+import ContactUs from "./pages/About/ContactUs";
 
 
 
 function App() {
   return (
-    <div className="max-w-full mx-auto px-10">
+    <div className="max-w-full mx-auto">
       <Navigation></Navigation>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="hospital" element={<Hospitals></Hospitals>} />
         <Route path="about" element={<About />} />
+        <Route path="contactus" element={<ContactUs />} />
         <Route path="/appoinment" element={
         <RequireAuth>
           <Appointment />

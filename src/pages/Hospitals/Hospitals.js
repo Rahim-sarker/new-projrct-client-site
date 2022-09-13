@@ -13,8 +13,8 @@ const Hospitals = () => {
 
     return (
         <div> 
-          <h1 className='text-2xl text-center font-bold text-secondary my-5'>Select Hospital Nearest You Have</h1>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          <h1 className='text-2xl text-center font-bold text-purple-500 my-5'>Select Your Nearest Hospital</h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mx-10">
            {
             hospitals.map(hospital => <SingleHospital
              key={hospital.id}

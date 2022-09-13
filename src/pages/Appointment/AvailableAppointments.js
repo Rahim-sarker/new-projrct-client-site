@@ -27,7 +27,7 @@ const AvailableAppointments = ({ date }) => {
 
   
   return (
-    <div className="mb-5">
+    <div className="mb-10 mx-10">
       <h3 className="text-center text-2xl text-secondary font-bold my-5 ">
         Available Services on {format(date, "PP")}
       </h3>

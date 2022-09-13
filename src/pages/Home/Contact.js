@@ -4,7 +4,7 @@ import appointbg from "../../assets/images/appointment.png";
 
 const Contact = () => {
   return (
-    <section style={{ background: `url(${appointbg})` }} className="py-10">
+    <section style={{ background: `url(${appointbg})` }} className="py-10 mx-10">
       <div>
         <div className="flex  justify-center">
           <h4 className="text-primary font-bold">Contact Us</h4>

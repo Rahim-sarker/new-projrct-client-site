@@ -24,11 +24,11 @@ const Navigation = () => {
       {/* <li>
         <Link to="/appoinment">Appoinment</Link>
       </li> */}
-      <li>
+      {/* <li>
         <Link to="review">Reviews</Link>
-      </li>
+      </li> */}
       <li>
-        <Link to="contact">Contact us</Link>
+        <Link to="contactus">Contact us</Link>
       </li>
       <li>
         <Link to="about">About</Link>
@@ -42,7 +42,7 @@ const Navigation = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-secondary">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -68,7 +68,7 @@ const Navigation = () => {
             {menuItem}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">
+        <a className="btn btn-ghost normal-case font-bold text-xl">
           Public Health Service
         </a>
       </div>

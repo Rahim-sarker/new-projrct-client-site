@@ -1,11 +1,13 @@
 [{"id":1,"name":"Square Hospital","address":"18/F, Bir Uttam Qazi Nuruzzaman Sarak West Panthapath,Dhaka 1205","image":"http://hospital.bangladeshinformation.info/wp-content/uploads/sites/6/2016/06/Square-Hospital-Ltd-Logo.jpg"},   
 
-{"id":2,"name":"Popular Diagnostic Centre Ltd","address":"House #16, Road # 2, Dhanmondi R/A, Dhaka-1205","image":"https://www.myhealthplus.com.bd/wp-content/uploads/2021/08/popular.png"},
+{"id":2,"name":"Labaid Hospitals","address":"House#06, Road#04, Dhanmondi Dhaka 1205","image":"https://labaid.com.bd/UI/PublicUI/images/company/hosoital.jpg"},
 
-{"id":3,"name":"Labaid Hospitals","address":"House#06, Road#04, Dhanmondi Dhaka 1205","image":"https://labaid.com.bd/UI/PublicUI/images/company/hosoital.jpg"},
+{"id":3,"name":"United Hospital Limited","address":"plot 15, Road 71, Gulshan Dhaka 1212, Bangladesh","image":"https://seeklogo.com/images/U/united-hospital-logo-BE86AFAD8A-seeklogo.com.png"},
 
-{"id":4,"name":"Asgar Ali Hospital","address":"111/1/A Distillery Road, Gandaria (Beside Dhupkhola Playground), Dhaka-1204","image":"https://searchingnext.com/wp-content/uploads/2021/09/1_I4nmkMK0peNfsPRWUwx-Pg.jpeg"},
+{"id":4,"name":"Popular Diagnostic Centre Ltd","address":"House #16, Road # 2, Dhanmondi R/A, Dhaka-1205","image":"https://www.myhealthplus.com.bd/wp-content/uploads/2021/08/popular.png"},
 
-{"id":5,"name":"Ibn Sina Specialized Hospital","address":"House 48, Road 9/A, Dhanmondi, Dhaka-1209","image":"https://api.hatchwise.com/api/public/storage/assets/contests/entries/S259195-20110922232942.png"},
 
-{"id":6,"name":"United Hospital Limited","address":"plot 15, Road 71, Gulshan Dhaka 1212, Bangladesh","image":"https://seeklogo.com/images/U/united-hospital-logo-BE86AFAD8A-seeklogo.com.png"}]
+{"id":5,"name":"Asgar Ali Hospital","address":"111/1/A Distillery Road, Gandaria (Beside Dhupkhola Playground), Dhaka-1204","image":"https://searchingnext.com/wp-content/uploads/2021/09/1_I4nmkMK0peNfsPRWUwx-Pg.jpeg"},
+
+{"id":6,"name":"Ibn Sina Specialized Hospital","address":"House 48, Road 9/A, Dhanmondi, Dhaka-1209","image":"https://api.hatchwise.com/api/public/storage/assets/contests/entries/S259195-20110922232942.png"}
+]

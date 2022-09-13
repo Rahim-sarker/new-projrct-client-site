@@ -30,7 +30,7 @@ const Testimonial = () => {
     },
   ];
   return (
-    <section className="py-10">
+    <section className="py-10 mx-10">
       <div className="flex justify-between">
         <div>
           <h4 className="text-primary font-bold">Testimonial</h4>
