@@ -20,6 +20,7 @@ import AddDoctor from "./pages/DashBoard/AddDoctor";
 import Hospitals from "./pages/Hospitals/Hospitals";
 import ManageDoctors from "./pages/DashBoard/ManageDoctors";
 import ContactUs from "./pages/About/ContactUs";
+import Payment from "./pages/DashBoard/Payment";
 
 
 
@@ -42,6 +43,7 @@ function App() {
         <Route index element={<MyAppointment></MyAppointment>} />
         <Route path="review" element={<MyReview></MyReview>} />
         <Route path="history" element={<MyHistory></MyHistory>} />
+        <Route path="payment/:id" element={<Payment></Payment>} />
         <Route path="users" element={<RequireAdminn><Users></Users></RequireAdminn>} />
         <Route path="addDoctor" element={<RequireAdminn> <AddDoctor></AddDoctor>  </RequireAdminn>} />
         <Route path="manageDoctors" element={<RequireAdminn> <ManageDoctors></ManageDoctors>  </RequireAdminn>} />

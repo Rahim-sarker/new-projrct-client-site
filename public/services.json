@@ -1,7 +1,7 @@
 [
   {
-    "_id": 1,
     "name": "Cardiology",
+    "price": 700,
     "slots": [
       "08.00 AM - 08.30 AM",
       "08.30 AM - 09.00 AM",
@@ -22,8 +22,8 @@
     ]
   },
   {
-    "_id": 2,
-    "name": "Coronary Care Unit",
+    "name": "Coronavirus disease",
+    "price": 1200,
     "slots": [
       "08.00 AM - 08.30 AM",
       "08.30 AM - 09.00 AM",
@@ -44,8 +44,8 @@
     ]
   },
   {
-    "_id": 3,
     "name": "Neurology",
+    "price": 800,
     "slots": [
       "08.00 AM - 08.30 AM",
       "08.30 AM - 09.00 AM",
@@ -66,8 +66,8 @@
     ]
   },
   {
-    "_id": 4,
     "name": "Nephrology",
+    "price": 900,
     "slots": [
       "08.00 AM - 08.30 AM",
       "08.30 AM - 09.00 AM",
@@ -88,8 +88,8 @@
     ]
   },
   {
-    "_id": 5,
     "name": "Urology",
+    "price": 700,
     "slots": [
       "08.00 AM - 08.30 AM",
       "08.30 AM - 09.00 AM",
@@ -110,8 +110,9 @@
     ]
   },
   {
-    "_id": 6,
+   
     "name": "Orthopaedics",
+    "price": 600,
     "slots": [
       "08.00 AM - 08.30 AM",
       "08.30 AM - 09.00 AM",
@@ -132,8 +133,9 @@
     ]
   },
   {
-    "_id": 7,
+   
     "name": "Haematology",
+    "price": 700,
     "slots": [
       "08.00 AM - 08.30 AM",
       "08.30 AM - 09.00 AM",
@@ -154,8 +156,9 @@
     ]
   },
   {
-    "_id": 8,
+   
     "name": "Oncology",
+    "price": 800,
     "slots": [
       "08.00 AM - 08.30 AM",
       "08.30 AM - 09.00 AM",
@@ -176,8 +179,9 @@
     ]
   },
   {
-    "_id": 9,
+   
     "name": "Gastroenterology",
+    "price": 600,
     "slots": [
       "08.00 AM - 08.30 AM",
       "08.30 AM - 09.00 AM",
