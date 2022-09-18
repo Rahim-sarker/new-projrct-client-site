@@ -16,7 +16,7 @@ const Testimonial = () => {
     },
     {
       _id: 2,
-      name: "Dipa Sarker",
+      name: "Tofayel Ahmed",
       review: "Good initiative to connect any doctors you desire they make the system to happen. Thank you for your services.Service is fine, we are very happy with your hospital and the related work, thanks so much thank you.",
       img: people2,
       location: "Dhaka",
