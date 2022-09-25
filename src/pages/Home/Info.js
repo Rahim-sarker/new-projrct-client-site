@@ -10,6 +10,7 @@ const Info = () => {
         cardTitle="Oppening Hours"
         bgClass="bg-gradient-to-r from-secondary to-primary"
         img={clock}
+        open="24 hour available our service"
       ></InfoCard>
       <InfoCard
         cardTitle="Visit our location"
@@ -20,6 +21,8 @@ const Info = () => {
         cardTitle="Contact us now"
         bgClass="bg-gradient-to-r from-secondary to-primary"
         img={phone}
+        open="01945820385 ||
+        01515600450"
       ></InfoCard>
     </div>
   );

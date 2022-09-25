@@ -3,9 +3,10 @@ import React from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import auth from "../../firebase.init";
 import { toast } from 'react-toastify';
+import { Link } from "react-router-dom";
 
 const BookingModal = ({ date, treatment, setTreatment,refetch }) => {
-  const { _id, name, slots, price} = treatment;
+  const { _id, name, slots, price,doctors,mails} = treatment;
 
   const [user, loading, error] = useAuthState(auth);
   const formattedDate = format(date,'PP');
@@ -13,6 +14,7 @@ const BookingModal = ({ date, treatment, setTreatment,refetch }) => {
   const handleBooking = (event) => {
     event.preventDefault();
     const slot = event.target.slot.value;
+    const doctor = event.target.doctor.value;
     console.log(_id, name, slot);
 
     const booking ={
@@ -20,6 +22,7 @@ const BookingModal = ({ date, treatment, setTreatment,refetch }) => {
       treatment: name,
       date: formattedDate,
       slot,
+      doctor,
       price,
       patient: user.email,
       patientName:user.displayName,
@@ -72,6 +75,20 @@ const BookingModal = ({ date, treatment, setTreatment,refetch }) => {
               value={format(date, "PP")}
               className="input input-bordered input-secondary w-full max-w-xs"
             />
+          <select
+              name="doctor"
+              className="select select-bordered select-secondary w-full max-w-xs"
+            >
+              {doctors.map((dotor) => (
+                <option value={dotor}>
+                  {dotor}
+                  </option>
+              ))}
+              
+            </select>
+
+          
+  
             <select
               name="slot"
               className="select select-bordered select-secondary w-full max-w-xs"

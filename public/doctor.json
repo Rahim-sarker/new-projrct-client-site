@@ -1,0 +1,159 @@
+[
+ {  "id":1,
+    "name":"Dr. Poly Bhoumik",
+    "Speciality":"Senior Consultant, Interventional Cardiology",
+    "Degree":"MBBS (Dhaka), MD CARD. (NICVD), FIC (Singapore), Fellow-National Heart Centre, Singapore, Fellow-Escorts Hospital, New Delhi.",
+    "img":"https://diit.edu.bd/media/faculty/Poly_bhoumik-cse.png"
+},   
+
+ {  "id":2,
+    "name":"Dr. Imran Hossain",
+    "Speciality":"Senior Consultant, Interventional Cardiology",
+    "Degree":"MBBS (Dhaka), MD CARD. (NICVD), FIC (Singapore), Fellow-National Heart Centre, Singapore, Fellow-Escorts Hospital, New Delhi",
+    "img":"https://diit.edu.bd/media/faculty/imran_IlmedFe.jpg"
+}, 
+
+ {  "id":3,
+    "name":"Dr. Mohammed Shakhawat Hossain",
+    "Speciality":"Senior Consultant, Interventional Cardiology",
+    "Degree":"MBBS, MD (Cardiology), Fellow, Interventional Cardiology Fellow, Pacing, EP and Device Implantation",
+    "img":"https://diit.edu.bd/media/faculty/principal_NYMrZz4.jpg"
+}, 
+
+ {  "id":4,
+    "name":"Dr. Nusrhat Jahan",
+    "Speciality":"ssociate Consultant, Cardiology (Non-Invasive)",
+    "Degree":"MBBS (Dhaka), MD CARD. (NICVD), FIC (Singapore), Fellow-National Heart Centre, Singapore, Fellow-Escorts Hospital, New Delhi",
+    "img":"https://diit.edu.bd/media/faculty/Nusrhat_Jahan_Sarker_-_Nusrhat_Jahan_Sarker_1.png"
+},   
+
+ {  "id":5,
+    "name":"Dr. Mizanur Rahman",
+    "Speciality":"ssociate Consultant, Cardiology (Non-Invasive)",
+    "Degree":"MBBS, MD (Cardiology), Fellow, Interventional Cardiology Fellow, Pacing, EP and Device Implantation",
+    "img":"https://diit.edu.bd/media/faculty/mijanur_nu_VcRfwUB.png"
+} ,  
+ {  "id":6,
+    "name":"Dr. Saidur Rahman",
+    "Speciality":"ssociate Consultant, Coronavirus disease",
+    "Degree":"MBBS, Fellow, w, Pacing, EP and Device Implantation",
+    "img":"https://diit.edu.bd/media/faculty/Saidur_Rahman.jpg"
+}, 
+  
+ {  "id":7,
+    "name":"Dr. Safrun Nesa Saira",
+    "Speciality":"Senior Consultant, Coronavirus disease",
+    "Degree":"MBBS,Fellow,  Pacing, EP and Device Implantation",
+    "img":"https://diit.edu.bd/media/faculty/Safrun_Nesa_Saira-.png"
+}  
+,   
+ {  "id":8,
+    "name":"Dr. Mokarram Hossain",
+    "Speciality":"Senior Consultant, Coronavirus disease",
+    "Degree":"MBBS, Fellow, Pacing, EP and Device Implantation",
+    "img":"https://diit.edu.bd/media/faculty/mokarramsir.jpg"
+}  
+,   
+ {  "id":9,
+    "name":"Dr. Israt Moriom Khan",
+    "Speciality":"Senior Consultant, Coronavirus disease",
+    "Degree":"MBBS,Fellow, Pacing, EP and Device Implantation",
+    "img":"https://diit.edu.bd/media/faculty/israt_nu.jpg"
+} , 
+ {  "id":10,
+    "name":"Dr. Sanowar Hossain",
+    "Speciality":"Senior Consultant, Coronavirus disease",
+    "Degree":"MBBS,Fellow, Pacing, EP and Device Implantation",
+    "img":"https://diit.edu.bd/media/faculty/atikul-bba.jpg"
+} , 
+ {  "id":11,
+    "name":"Dr. Tahmina Aktar Trisha",
+    "Speciality":"Dept. of Clinical Neurology",
+    "Degree":"MBBS, MPH, M.PhilAssociate Professor Department of Biochemistry National Institute of Neurosciences & Hospital",
+    "img":"https://diit.edu.bd/media/faculty/Tahmina_Akter_Trissha.PNG"
+} , 
+ {  "id":12,
+    "name":"Dr. Fahmida Akter",
+    "Speciality":"Senior Consultant, Dept. of Clinical Neurology",
+    "Degree":"MBBS,Fellow, Pacing, EP and Device Implantation",
+    "img":"https://diit.edu.bd/media/faculty/fahmida_nu_zquzCbU.png"
+},  
+
+ {  "id":13,
+    "name":"Dr. Fahmida Akter",
+    "Speciality":"Senior Consultant, Dept. of Clinical Neurology",
+    "Degree":"MBBS,Fellow, Pacing, EP and Device Implantation",
+    "img":"https://diit.edu.bd/media/faculty/fahmida_nu_zquzCbU.png"
+} , 
+ {  "id":14,
+    "name":"Dr. Shaifullar Rabbi",
+    "Speciality":"Senior Consultant,Dept. of Clinical Neurology",
+    "Degree":"MBBS, MPH, M.PhilAssociate Professor Department of Biochemistry National Institute of Neurosciences & Hospital",
+    "img":"https://diit.edu.bd/media/faculty/Shaifullah_Rabbi.png"
+} ,
+
+ {  "id":14,
+    "name":"Dr. Asma-Ul-Husna",
+    "Speciality":"Senior Consultant,Dept. of Clinical Neurology",
+    "Degree":"MBBS, MPH, M.PhilAssociate Professor Department of Biochemistry National Institute of Neurosciences & Hospital",
+    "img":"https://diit.edu.bd/media/faculty/Asma_nu.png"
+} , 
+ {  "id":15,
+    "name":"Dr. Md Imtiaz Ahmed",
+    "Speciality":"Senior Consultant,Dept. of Clinical Neurology",
+    "Degree":"MBBS, MPH, M.PhilAssociate Professor Department of Biochemistry National Institute of Neurosciences & Hospital",
+    "img":"https://diit.edu.bd/media/faculty/Md._Imtiaz_Ahmed.JPG"
+},
+
+ {  "id":15,
+    "name":"Dr. Lakkhan Chandra",
+    "Speciality":"Consultant, Nephrology",
+    "Degree":"MBBS, MPH, M.PhilAssociate Professor MBBS, FCPS (Medicine), MD (Nephrology)",
+    "img":"https://diit.edu.bd/media/faculty/unnamed.jpg"
+} ,
+
+ {  "id":16,
+    "name":"Dr. Md. Omar Faruk",
+    "Speciality":"Consultant, Nephrology",
+    "Degree":"MBBS, MPH, M.PhilAssociate Professor MBBS, FCPS (Medicine), MD (Nephrology)",
+    "img":"https://diit.edu.bd/media/faculty/Md._Omar_Faruk.jpg"
+} ,
+ {  "id":17,
+    "name":"Dr. Sabrina Quadir",
+    "Speciality":"Consultant, Nephrology",
+    "Degree":"MBBS, MPH, M.PhilAssociate Professor MBBS, FCPS (Medicine), MD (Nephrology)",
+    "img":"https://diit.edu.bd/media/faculty/Sabrina_Qudir.png"
+} ,
+ {  "id":18,
+    "name":"Dr. Shakila Jahan Nipa",
+    "Speciality":"Consultant, Nephrology",
+    "Degree":"MBBS, MPH, M.PhilAssociate Professor MBBS, FCPS (Medicine), MD (Nephrology)",
+    "img":"https://diit.edu.bd/media/faculty/nipa_nu.png"
+},
+
+ {  "id":19,
+    "name":"Dr. Rahim Sarker",
+    "Speciality":"Consultant, Nephrology",
+    "Degree":"MBBS, MPH, M.PhilAssociate Professor MBBS, FCPS (Medicine), MD (Nephrology)",
+    "img":"https://i.ibb.co/rs80jyp/DCM-4163-copy-yy.jpg"
+} ,
+
+ {  "id":20,
+    "name":"Dr. Tofayel Ahmed",
+    "Speciality":"Consultant, Nephrology",
+    "Degree":"MBBS, MPH, M.PhilAssociate Professor MBBS, FCPS (Medicine), MD (Nephrology)",
+    "img":"https://i.ibb.co/3s2NXjX/tofayeldusto.jpg"
+} ,
+
+ {  "id":21,
+    "name":"Dr. Tanjila Afroz Mou",
+    "Speciality":"Consultant, Nephrology",
+    "Degree":"MBBS, MPH, M.PhilAssociate Professor MBBS, FCPS (Medicine), MD (Nephrology)",
+    "img":"https://diit.edu.bd/media/faculty/Tanjila_Mou.jpg"
+} 
+
+
+   
+    
+   
+    ]

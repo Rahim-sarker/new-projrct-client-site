@@ -32,7 +32,8 @@ const AddDoctor = () => {
               name: data.name,
               email: data.email,
               specialty: data.specialty,
-              img:img
+              img:img,
+              role:'doctor'
               //start from here ---4
             }
 

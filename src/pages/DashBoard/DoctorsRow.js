@@ -16,6 +16,7 @@ const DoctorsRow = ({ doctor, index, refetch, setDeletingDoctors }) => {
       </td>
 
       <td>{name}</td>
+      <td>{email}</td>
       <td>{specialty}</td>
       <td>
         <label

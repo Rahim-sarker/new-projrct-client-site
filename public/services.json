@@ -1,28 +1,6 @@
 [
   {
     "name": "Cardiology",
-    "price": 700,
-    "slots": [
-      "08.00 AM - 08.30 AM",
-      "08.30 AM - 09.00 AM",
-      "09.00 AM - 9.30 AM",
-      "09.30 AM - 10.00 AM",
-      "10.00 AM - 10.30 AM",
-      "10.30 AM - 11.00 AM",
-      "11.00 AM - 11.30 AM",
-      "11.30 AM - 12.00 AM",
-      "1.00 PM - 1.30 PM",
-      "1.30 PM - 2.00 PM",
-      "2.00 PM - 2.30 PM",
-      "2.30 PM - 3.00 PM",
-      "3.00 PM - 3.30 PM",
-      "3.30 PM - 4.00 PM",
-      "4.00 PM - 4.30 PM",
-      "4.30 PM - 5.00 PM"
-    ]
-  },
-  {
-    "name": "Coronavirus disease",
     "price": 1200,
     "slots": [
       "08.00 AM - 08.30 AM",
@@ -41,11 +19,18 @@
       "3.30 PM - 4.00 PM",
       "4.00 PM - 4.30 PM",
       "4.30 PM - 5.00 PM"
+    ],
+    "doctors": [
+      "Dr. Poly Bhoumik",
+      "Dr. Imran Hossain",
+      "Dr. Shakhawat Hossain",
+      "Dr. Nusrat Jahan",
+      "Dr. Mizan Khan"
     ]
   },
   {
-    "name": "Neurology",
-    "price": 800,
+    "name": "Coronavirus disease",
+    "price": 1100,
     "slots": [
       "08.00 AM - 08.30 AM",
       "08.30 AM - 09.00 AM",
@@ -63,6 +48,42 @@
       "3.30 PM - 4.00 PM",
       "4.00 PM - 4.30 PM",
       "4.30 PM - 5.00 PM"
+    ],
+    "doctors": [
+      "Dr. Saidur Rahman",
+      "Dr. Safrun Nesa Saira",
+      "Dr. Mokarram Hossain",
+      "Dr. Israt Moriom Khan",
+      "Dr. Sanowar Hossain "
+    ]
+  },
+  {
+    "name": "Neurology",
+    "price": 1000,
+    "slots": [
+      "08.00 AM - 08.30 AM",
+      "08.30 AM - 09.00 AM",
+      "09.00 AM - 9.30 AM",
+      "09.30 AM - 10.00 AM",
+      "10.00 AM - 10.30 AM",
+      "10.30 AM - 11.00 AM",
+      "11.00 AM - 11.30 AM",
+      "11.30 AM - 12.00 AM",
+      "1.00 PM - 1.30 PM",
+      "1.30 PM - 2.00 PM",
+      "2.00 PM - 2.30 PM",
+      "2.30 PM - 3.00 PM",
+      "3.00 PM - 3.30 PM",
+      "3.30 PM - 4.00 PM",
+      "4.00 PM - 4.30 PM",
+      "4.30 PM - 5.00 PM"
+    ],
+    "doctors": [
+      "Dr.Tahmina Aktar Trisha",
+      "Dr. Fahmida Akter",
+      "Dr. Shaifullar Rabbi",
+      "Dr. Asma-Ul-Husna",
+      "Dr. Md Imtiaz Ahmed "
     ]
   },
   {
@@ -85,79 +106,17 @@
       "3.30 PM - 4.00 PM",
       "4.00 PM - 4.30 PM",
       "4.30 PM - 5.00 PM"
+    ],
+    "doctors": [
+      "Dr. Lakkhan Chandra",
+      "Dr. Omar Faruk",
+      "Dr. Sabrina Quadir",
+      "Dr. Shakila Jahan Nipa",
+      "Dr. Aminul Haque"
     ]
   },
   {
     "name": "Urology",
-    "price": 700,
-    "slots": [
-      "08.00 AM - 08.30 AM",
-      "08.30 AM - 09.00 AM",
-      "09.00 AM - 9.30 AM",
-      "09.30 AM - 10.00 AM",
-      "10.00 AM - 10.30 AM",
-      "10.30 AM - 11.00 AM",
-      "11.00 AM - 11.30 AM",
-      "11.30 AM - 12.00 AM",
-      "1.00 PM - 1.30 PM",
-      "1.30 PM - 2.00 PM",
-      "2.00 PM - 2.30 PM",
-      "2.30 PM - 3.00 PM",
-      "3.00 PM - 3.30 PM",
-      "3.30 PM - 4.00 PM",
-      "4.00 PM - 4.30 PM",
-      "4.30 PM - 5.00 PM"
-    ]
-  },
-  {
-   
-    "name": "Orthopaedics",
-    "price": 600,
-    "slots": [
-      "08.00 AM - 08.30 AM",
-      "08.30 AM - 09.00 AM",
-      "09.00 AM - 9.30 AM",
-      "09.30 AM - 10.00 AM",
-      "10.00 AM - 10.30 AM",
-      "10.30 AM - 11.00 AM",
-      "11.00 AM - 11.30 AM",
-      "11.30 AM - 12.00 AM",
-      "1.00 PM - 1.30 PM",
-      "1.30 PM - 2.00 PM",
-      "2.00 PM - 2.30 PM",
-      "2.30 PM - 3.00 PM",
-      "3.00 PM - 3.30 PM",
-      "3.30 PM - 4.00 PM",
-      "4.00 PM - 4.30 PM",
-      "4.30 PM - 5.00 PM"
-    ]
-  },
-  {
-   
-    "name": "Haematology",
-    "price": 700,
-    "slots": [
-      "08.00 AM - 08.30 AM",
-      "08.30 AM - 09.00 AM",
-      "09.00 AM - 9.30 AM",
-      "09.30 AM - 10.00 AM",
-      "10.00 AM - 10.30 AM",
-      "10.30 AM - 11.00 AM",
-      "11.00 AM - 11.30 AM",
-      "11.30 AM - 12.00 AM",
-      "1.00 PM - 1.30 PM",
-      "1.30 PM - 2.00 PM",
-      "2.00 PM - 2.30 PM",
-      "2.30 PM - 3.00 PM",
-      "3.00 PM - 3.30 PM",
-      "3.30 PM - 4.00 PM",
-      "4.00 PM - 4.30 PM",
-      "4.30 PM - 5.00 PM"
-    ]
-  },
-  {
-   
-    "name": "Oncology",
     "price": 800,
     "slots": [
       "08.00 AM - 08.30 AM",
@@ -176,11 +135,48 @@
       "3.30 PM - 4.00 PM",
       "4.00 PM - 4.30 PM",
       "4.30 PM - 5.00 PM"
+    ],
+    "doctors": [
+      "Dr. Ismail Hossain",
+      "Dr. Riyad Hossain",
+      "Dr. Sujan khan",
+      "Dr. Arif Hossain",
+      "Dr. Ramzan Hossain"
     ]
   },
   {
    
-    "name": "Gastroenterology",
+    "name": "Orthopaedics",
+    "price": 700,
+    "slots": [
+      "08.00 AM - 08.30 AM",
+      "08.30 AM - 09.00 AM",
+      "09.00 AM - 9.30 AM",
+      "09.30 AM - 10.00 AM",
+      "10.00 AM - 10.30 AM",
+      "10.30 AM - 11.00 AM",
+      "11.00 AM - 11.30 AM",
+      "11.30 AM - 12.00 AM",
+      "1.00 PM - 1.30 PM",
+      "1.30 PM - 2.00 PM",
+      "2.00 PM - 2.30 PM",
+      "2.30 PM - 3.00 PM",
+      "3.00 PM - 3.30 PM",
+      "3.30 PM - 4.00 PM",
+      "4.00 PM - 4.30 PM",
+      "4.30 PM - 5.00 PM"
+    ],
+    "doctors": [
+      "Dr. Alim Al Razi",
+      "Dr. Rabeya Akter",
+      "Dr. Reshma Akter",
+      "Dr. Moazzem Hossain",
+      "Dr. Shuvo Saha"
+    ]
+  },
+  {
+   
+    "name": "Haematology",
     "price": 600,
     "slots": [
       "08.00 AM - 08.30 AM",
@@ -199,6 +195,73 @@
       "3.30 PM - 4.00 PM",
       "4.00 PM - 4.30 PM",
       "4.30 PM - 5.00 PM"
+    ],
+    "doctors": [
+      "Dr. Din Islam",
+      "Dr. Samiya Khatun",
+      "Dr. Salma Begum",
+      "Dr. Sumon Sarker",
+      "Dr. Rumi Akter"
+    ]
+  },
+  {
+   
+    "name": "Oncology",
+    "price": 500,
+    "slots": [
+      "08.00 AM - 08.30 AM",
+      "08.30 AM - 09.00 AM",
+      "09.00 AM - 9.30 AM",
+      "09.30 AM - 10.00 AM",
+      "10.00 AM - 10.30 AM",
+      "10.30 AM - 11.00 AM",
+      "11.00 AM - 11.30 AM",
+      "11.30 AM - 12.00 AM",
+      "1.00 PM - 1.30 PM",
+      "1.30 PM - 2.00 PM",
+      "2.00 PM - 2.30 PM",
+      "2.30 PM - 3.00 PM",
+      "3.00 PM - 3.30 PM",
+      "3.30 PM - 4.00 PM",
+      "4.00 PM - 4.30 PM",
+      "4.30 PM - 5.00 PM"
+    ],
+    "doctors": [
+      "Dr. Mahinur Sarker",
+      "Dr. Dipali Akter",
+      "Dr. Jannatul Ara",
+      "Dr. Masum Khan",
+      "Dr. Montahena sarker"
+    ]
+  },
+  {
+   
+    "name": "Gastroenterology",
+    "price": 400,
+    "slots": [
+      "08.00 AM - 08.30 AM",
+      "08.30 AM - 09.00 AM",
+      "09.00 AM - 9.30 AM",
+      "09.30 AM - 10.00 AM",
+      "10.00 AM - 10.30 AM",
+      "10.30 AM - 11.00 AM",
+      "11.00 AM - 11.30 AM",
+      "11.30 AM - 12.00 AM",
+      "1.00 PM - 1.30 PM",
+      "1.30 PM - 2.00 PM",
+      "2.00 PM - 2.30 PM",
+      "2.30 PM - 3.00 PM",
+      "3.00 PM - 3.30 PM",
+      "3.30 PM - 4.00 PM",
+      "4.00 PM - 4.30 PM",
+      "4.30 PM - 5.00 PM"
+    ],
+    "doctors": [
+      "Dr. Rahim Sarker",
+      "Dr. Tofayel Ahmed",
+      "Dr. Khalid Hossain",
+      "Dr. Yousuf Ali khan",
+      "Dr. Moriom Akter"
     ]
   }
 ]

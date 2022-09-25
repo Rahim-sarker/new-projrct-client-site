@@ -33,6 +33,7 @@ const ManageDoctors = () => {
               <th></th>
               <th>Avatar</th>
               <th>Name</th>
+              <th>Email</th>
               <th>Specialty</th>
               <th>Action</th>
             </tr>

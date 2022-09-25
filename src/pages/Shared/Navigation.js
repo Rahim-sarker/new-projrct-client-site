@@ -6,7 +6,7 @@ import auth from "../../firebase.init";
 
 const Navigation = () => {
 
-  const [user, loading, error] = useAuthState(auth);
+  const [user] = useAuthState(auth);
 
   const logout = () => {
     signOut(auth);
@@ -20,6 +20,9 @@ const Navigation = () => {
       </li>
       <li>
         <Link to="hospital">Hospitals</Link>
+      </li>
+      <li>
+        <Link to="doctor">Doctors</Link>
       </li>
       {/* <li>
         <Link to="/appoinment">Appoinment</Link>
@@ -39,6 +42,11 @@ const Navigation = () => {
       <li>
        { user ? <button className="btn  btn-ghost" onClick={logout}>Sign Out</button>: <Link to="login">Login</Link>}
       </li>
+     
+       {/* <li>
+         <span>{user.displayName}</span>
+      </li>  */}
+     
     </>
   );
   return (
@@ -75,9 +83,6 @@ const Navigation = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal p-0">{menuItem}</ul>
       </div>
-
-
-
 
 
 

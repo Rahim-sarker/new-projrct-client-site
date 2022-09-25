@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
 import { Link } from "react-router-dom";
+import { toast } from 'react-toastify';
 import auth from '../../firebase.init';
 
 const MyAppointment = () => {
@@ -36,6 +37,24 @@ const MyAppointment = () => {
         }
     },[user])
 
+   const handledelete = id =>{
+    const proceed = window.confirm('Are you sure to cancel ?');
+    if(proceed){
+      const url = `http://localhost:5000/patient/${id}`;
+      fetch(url,{
+        method: 'DELETE'
+      })
+      .then(res => res.json())
+      .then(data =>{
+        if(data.deletedCount > 0){
+           const remaining = appoinments.filter(patient =>patient._id !== id);
+           setAppoinments(remaining);
+        }
+      })
+    }
+   }
+
+
 
     return (
         <div>
@@ -50,6 +69,8 @@ const MyAppointment = () => {
         <th>Date</th>
         <th>Time</th>
         <th>Treatment</th>
+        <th>Consultant</th>
+        <th>Cancel Appointment</th>
         <th>Payment</th>
       </tr>
     </thead>
@@ -62,6 +83,9 @@ const MyAppointment = () => {
             <td>{a.date}</td>
             <td>{a.slot}</td>
             <td>{a.treatment}</td>
+            <td>{a.doctor}</td>
+            <td><button onClick={()=>handledelete(a._id)} class="btn btn-xs btn-error">Cancel</button>
+            </td>
             <td>
               {(a.price && !a.paid) && <Link to={`/dashboard/payment/${a._id}`}> <button className='btn btn-xs btn-success'>Pay</button></Link>}
               {(a.price && a.paid) && 

@@ -3,7 +3,7 @@ import React from 'react';
 const MyHistory = () => {
     return (
         <div>
-            <h1>My History</h1>
+            <h1>Your History</h1>
         </div>
     );
 };
